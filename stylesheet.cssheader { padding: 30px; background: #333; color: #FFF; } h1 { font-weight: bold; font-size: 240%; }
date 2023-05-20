@@ -1,6 +1,4 @@
 
-container {
-padding: 30px;
-background: #333;
-color: #FFF;
+header  {
+  background-color: #1cb4d3;
 }
