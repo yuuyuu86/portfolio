@@ -1,10 +1,10 @@
- {
+.works_item img{
     border: 5px solid #fff;
 }
 header {
     background-color: #505963;
 }
 
-txt_c{
+.txt_c{
     text-align: center;
 }
