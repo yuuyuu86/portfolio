@@ -5,7 +5,9 @@
 header {
     background-color: #505963;
 }
-
+footer{
+        background-color: #505963;
+}
 .txt_c{
     text-align: center;
 }
