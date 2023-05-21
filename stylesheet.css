@@ -4,11 +4,19 @@
 .works_item{
     text-align: center;
 }
+body {
+   margin: 0;
+   padding: 0;
+}
 header {
-    background-color: #505963;
+   background-color: #505963;
+   margin: 0;
+   padding: 0;
 }
 footer{
         background-color: #505963;
+       margin: 0;
+   padding: 0;
 }
 .txt_c{
     text-align: center;
