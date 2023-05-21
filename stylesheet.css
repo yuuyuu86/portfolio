@@ -9,6 +9,7 @@ body {
    padding: 0;
 }
 header {
+     float: left;
    background-color: #505963;
    margin: 0;
    padding: 0;
