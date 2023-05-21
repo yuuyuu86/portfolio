@@ -1,4 +1,6 @@
-
+element.style {
+    border: 5px solid #fff;
+}
 header {
     background-color: #505963;
 }
