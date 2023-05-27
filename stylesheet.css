@@ -1,49 +1,62 @@
-.works_item img{
+.works_item img {
     border: 2px solid #fff;
-}
-.works_item{
+  }
+  
+  .works_item {
     font-weight: bold;
     text-align: center;
     padding: 10px 0px 50px;
-}
-body {
-   margin: 0 auto;
-   padding: 0;
-}
-header {
+  }
+  
+  body {
     margin: 0 auto;
-   padding: 0;
-}
-footer{
+    padding: 0;
+  }
+  
+  header {
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  footer {
     background-color: #fff;
     color: #000;
     margin: 0 auto;
-   padding: 0;
-}
-.txt_c{
+    padding: 0;
+  }
+  
+  .txt_c {
     text-align: center;
-}
-.about{
-
+  }
+  
+  .about {
     background-color: #fff;
-    color: black;
+    color: #000;
+    margin: 0 auto;
     padding: 30px;
-}
-.logo_img{
+  }
+  
+  .logo_img {
     text-align: center;
-}
-.wrapper{
+  }
+  
+  .wrapper {
     max-width: 400px;
     margin: 0 auto;
     padding: 30px;
-}
-.works_text{
+  }
+  
+  .works_text {
     font-size: 50px;
     padding: 30px 0px 20px;
-}
-.abut_text{
+  }
+  
+  .abut_text {
     font-size: 50px;
-}
-.wrapper_text{
+  }
+  
+  .wrapper_text {
     font-size: 50px;
-}
+    margin: 0 auto;
+    padding: 0;
+  }
