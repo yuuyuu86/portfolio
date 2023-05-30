@@ -1,59 +1,116 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio</title>
-  <link href="stylesheet.css" rel="stylesheet"> </head>
-<header class="wrapper">
-  <div class="fadeIn">
-  <h1 class="wrapper_text" style="text-align:center">Mizutani Yuta <br> Portfolio</h1>
-  <div class="logo_img"> <a href="https://yuuyuu86.github.io/portfolio/"><img src="https://raw.githubusercontent.com/yuuyuu86/portfolio/main/Image/MIzutani%20Yuta%20logo%20(1).png" alt="代用テキスト" width="150" height="150"> </div>
-	  </a> 
-    </div>
-  </header>
-<body>
-  <div class="fadeIn">
-    <a class="pagetop" href="#"><div class="pagetop__arrow"></div></a>
-  <body bgcolor="Black" text="White">
-    <div class="about">
-      <h1 class="abut_text" style="text-align:center">About</h1>
-      <h1 style="text-align:center">Yuta Mizutani(12)</h1>
-      <h3 style="text-align:center"> 小学五年生からプログラミングを始めました,<br>最近ではUnityやblenderをつかいゲームを作っています<br>ゲームクリエイターになるのが夢です</h3>
-    </div>
-    <!-- about -->
-    <div class="sec_title">
-      <h1 class="works_text" style="text-align:center">works</h1>
-    </div>
-    <div class="works_item"> </div>
-    <p class="new_text">New!</p>
-    <div class="works_item"> <a href="https://www.google.co.jp/" target="_blank">
-        <img src="https://raw.githubusercontent.com/yuuyuu86/portfolio/main/Image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202023-05-21%2010.43.17.png"
-        alt="代用テキスト"width="300" height="200">
-      </a>
-      <p style="text-align:center"> 海底耕耘（かいていこううん）</p>
-    </div>
-    <div class="works_item"> <a href="https://www.google.co.jp/" target="_blank">
-      <img src="https://raw.githubusercontent.com/yuuyuu86/portfolio/main/Image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202023-05-21%2010.44.44.png" 
-         alt="代用テキスト"width="200" height="400">
-       </a>
-      <p style="text-align:center"> お賽銭集め</p>
-    </div>
-    <div class="works_item"> <a href="https://scratch.mit.edu/projects/854438997/" target="_blank">
-									<img src="https://raw.githubusercontent.com/yuuyuu86/portfolio/main/Image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202023-05-20%2012.46.07.png" 
-			     					alt="代用テキスト"width="300" height="200">
-			     				</a>
-      <p style="text-align:center"> 桃太郎鬼退治への道</p>
-    </div>
-    <div class="works_item"> <a href="https://scratch.mit.edu/projects/854438875/" target="_blank">
-							<img src="https://raw.githubusercontent.com/yuuyuu86/portfolio/main/Image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202023-05-21%2010.35.41.png" 
-			     			alt="代用テキスト"width="300" height="200">
-			    		</a>
-      <p style="text-align:center"> BunBun Adventure</p>
-    </div>
-  </div>
-  </body>
-  <footer>
-    <h3>copyright@Mizutani Yuta</h3>
-    <footer bgcolor="White" text="Black"> </footer>
-</html>
+.works_item img {
+    border: 2px solid #fff;
+  }
+  
+  .works_item {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px 50px;
+  }
+  
+  body {
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  header {
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #fff;
+    color: #000;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .txt_c {
+    text-align: center;
+  }
+  
+  .about {
+    background-color: #fff;
+    color: #000;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .logo_img {
+    text-align: center;
+  }
+  
+  .wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .works_text {
+    font-size: 50px;
+    padding: 30px 0px 20px;
+  }
+  
+  .abut_text {
+    font-size: 50px;
+  }
+  
+  .wrapper_text {
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .new_text{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    color:lightcoral;
+  }
+
+  .fadeIn {
+    animation-name: flipLeftAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    perspective-origin: left center;
+    opacity:0;
+    }
+    
+    @keyframes flipLeftAnime{
+      from {
+       transform: perspective(600px) translate3d(0, 0, 0) rotateY(30deg);
+      opacity: 0;
+      }
+    
+      to {
+      transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+      opacity: 1;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+}
+.pagetop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #fff;
+    border: solid 2px #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.pagetop__arrow {
+  
+    height: 10px;
+    width: 10px;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    transform: translateY(20%) rotate(-45deg);
+}
