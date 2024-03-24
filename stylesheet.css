@@ -4,6 +4,9 @@
   .border{
     border: 20px solid #fff;
   }
+  .new_text_img{
+    text-align: center;
+  }
   .works_item {
     font-weight: bold;
     text-align: center;
@@ -62,13 +65,7 @@
     margin: 0 auto;
     padding: 0;
   }
-  .new_text{
-    font-size: 25px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    color:lightcoral;
-  }
+
 
   .fadeIn {
     
